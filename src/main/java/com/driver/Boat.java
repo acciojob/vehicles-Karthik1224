@@ -27,13 +27,15 @@ public class Boat implements WaterVehicle{
         return capacity;
       }
 
+      @Override
     public String getVehicleName()
          {
-            return name;
+            return this.name;
         }
+        @Override
         public int getVehicleCapacity()
         {
-            return capacity;
+            return this.capacity;
         }
 
 }
