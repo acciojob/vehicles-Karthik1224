@@ -5,7 +5,7 @@ public class F1 extends Car {
     int gear;
     public F1(String name, boolean isManual) {
         //Use arbitrary values for parameters which are not mentioned
-        super(name,isManual,4,4,6,"suv",7);
+        super(name,4,4,6,"SUV",isManual,7);
         gear = 0;
 
     }

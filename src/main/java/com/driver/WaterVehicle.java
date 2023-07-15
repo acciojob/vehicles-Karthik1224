@@ -1,7 +1,7 @@
 package com.driver;
 
 public interface WaterVehicle {
-    public String getVehicleName();
+    public String getName();
     public int getVehicleCapacity();
 }
 
@@ -14,7 +14,7 @@ class Boat implements WaterVehicle
         this.name = name;
         this.capacity = capacity;
     }
-    public String getVehicleName()
+    public String getName()
     {
         return name;
     }
